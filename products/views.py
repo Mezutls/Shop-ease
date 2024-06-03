@@ -8,4 +8,4 @@ def list_products(request):
     return render(request,'product.html')
 
 def detail_product(request):
-    return render(request,'product_details.html')
+    return render(request,'product_detail.html')
